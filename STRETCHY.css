@@ -77,6 +77,32 @@ table th {
     font-weight: 400;
 }
 
+.game-headline {
+    padding-top: 0pt;
+    padding-bottom: 10pt;
+    line-height: 1.15;
+    text-align: left;
+
+    font-size: 9pt;
+    font-style: italic
+}
+
+.game-prose {
+    padding-top: 0pt;
+    padding-bottom: 10pt;
+    line-height: 1.15;
+    text-align: left; 
+}
+
+.game-extra-features {
+    padding-top: 0pt;
+    padding-bottom: 10pt;
+    line-height: 1.15;
+    text-align: left;
+    font-size: 9pt;
+    font-weight: 700
+}
+
 .c8 {
   color: #ffffff;
   font-weight: 400;
