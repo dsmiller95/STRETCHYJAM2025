@@ -13,6 +13,10 @@ table th {
 .doc-content {
   transform: scale(1.5);
   transform-origin: 50% 0;
+  
+  background-color: #000000;
+  max-width: 468pt;
+  margin: 0 auto;
 }
 
 .image-side-container {
@@ -75,6 +79,41 @@ table th {
     margin: 0 auto;
 
     font-weight: 400;
+
+}
+
+.small-title {
+    padding-top: 12pt;
+    padding-bottom: 4pt;
+    line-height: 1.15;
+    page-break-after: avoid;
+    text-align: left;
+    margin: 0;
+}
+
+
+.main-title {
+    padding-top: 20pt;
+    padding-bottom: 6pt;
+    line-height: 1.15;
+    page-break-after: avoid;
+    text-align: left
+}
+
+
+.game-title {
+    padding-top: 16pt;
+    padding-bottom: 4pt;
+    line-height: 1.15;
+    page-break-after: avoid;
+    
+    margin: 0;
+    font-weight: 400;
+}
+
+
+.game-title .big {
+    font-weight: 600;
 }
 
 .game-headline {
@@ -103,124 +142,7 @@ table th {
     font-weight: 700
 }
 
-.c8 {
-  color: #ffffff;
-  font-weight: 400;
-  text-decoration: none;
-  vertical-align: baseline;
-  font-size: 20pt;
-  font-family: "Calibri";
-  font-style: normal
-}
 
-.c3 {
-  color: #ffffff;
-  font-weight: 400;
-  text-decoration: none;
-  vertical-align: baseline;
-  font-size: 14pt;
-  font-family: "Calibri";
-  font-style: normal
-}
-
-.c9 {
-  color: #ffffff;
-  font-weight: 400;
-  text-decoration: none;
-  vertical-align: baseline;
-  font-size: 8pt;
-  font-family: "Calibri";
-  font-style: normal
-}
-
-.c10 {
-  color: #ffffff;
-  font-weight: 400;
-  text-decoration: none;
-  vertical-align: baseline;
-  font-size: 9pt;
-  font-family: "Calibri";
-  font-style: normal
-}
-
-.c4 {
-  padding-top: 0pt;
-  padding-bottom: 10pt;
-  line-height: 1.15;
-  orphans: 2;
-  widows: 2;
-  text-align: left;
-  height: 8pt
-}
-
-.c7 {
-  color: #ffffff;
-  font-weight: 400;
-  text-decoration: none;
-  vertical-align: baseline;
-  font-size: 9pt;
-  font-family: "Calibri";
-  font-style: italic
-}
-
-.c17 {
-  padding-top: 20pt;
-  padding-bottom: 6pt;
-  line-height: 1.15;
-  page-break-after: avoid;
-  orphans: 2;
-  widows: 2;
-  text-align: left
-}
-
-.c2 {
-  padding-top: 16pt;
-  padding-bottom: 4pt;
-  line-height: 1.15;
-  page-break-after: avoid;
-  orphans: 2;
-  widows: 2;
-  text-align: justify;
-  margin: 0;
-}
-
-.c11 {
-  padding-top: 12pt;
-  padding-bottom: 4pt;
-  line-height: 1.15;
-  page-break-after: avoid;
-  orphans: 2;
-  widows: 2;
-  text-align: left;
-  margin: 0;
-}
-
-.c6 {
-  padding-top: 0pt;
-  padding-bottom: 10pt;
-  line-height: 1.15;
-  orphans: 2;
-  widows: 2;
-  text-align: left
-}
-
-.c12 {
-  font-weight: 400;
-  text-decoration: none;
-  vertical-align: baseline;
-  font-size: 11pt;
-  font-family: "Calibri";
-  font-style: normal
-}
-
-.c0 {
-  padding-top: 0pt;
-  padding-bottom: 10pt;
-  line-height: 1.15;
-  orphans: 2;
-  widows: 2;
-  text-align: center
-}
 
 .c5 {
   text-decoration-skip-ink: none;
@@ -230,69 +152,14 @@ table th {
   text-decoration: underline
 }
 
-.c19 {
-  background-color: #000000;
-  max-width: 468pt;
-  padding: 72pt 72pt 72pt 72pt;
-  margin: 0 auto;
-}
-
 .c16 {
   color: #00ffff;
-  font-size: 9pt
-}
-
-.c15 {
-  font-size: 9pt;
-  font-weight: 700
-}
-
-.c13 {
-  color: #ffffff;
   font-size: 9pt
 }
 
 .c20 {
   color: inherit;
   text-decoration: inherit
-}
-
-.c1 {
-  color: #cccccc
-}
-
-.c18 {
-  font-size: 9pt
-}
-
-.c14 {
-  color: #ffffff
-}
-
-.title {
-  padding-top: 0pt;
-  color: #ffffff;
-  font-size: 60pt;
-  padding-bottom: 3pt;
-  font-family: "Rakkas";
-  line-height: 1.15;
-  page-break-after: avoid;
-  orphans: 2;
-  widows: 2;
-  text-align: left
-}
-
-.subtitle {
-  padding-top: 0pt;
-  color: #666666;
-  font-size: 15pt;
-  padding-bottom: 16pt;
-  font-family: "Arial";
-  line-height: 1.15;
-  page-break-after: avoid;
-  orphans: 2;
-  widows: 2;
-  text-align: left
 }
 
 li {
