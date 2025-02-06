@@ -1,5 +1,8 @@
 console.log("update.js loaded");
 
-var className = document.getElementById("downloadButton").className;
-className += " extraClass";
-document.getElementById("downloadButton").className = className;
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("update.js updating dom");
+    var className = document.getElementById("downloadButton").className;
+    className += " extraClass";
+    document.getElementById("downloadButton").className = className;
+});
