@@ -53,13 +53,11 @@ table th {
 }
 .inline-image.right {
    float: right;
-   margin-top: 20px;
    margin-bottom: 20px;
    margin-left: 20px;
 }
 .inline-image.left {
    float: left;
-   margin-top: 20px;
    margin-bottom: 20px;
    margin-right: 20px;
 }
